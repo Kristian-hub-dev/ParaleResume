@@ -1,0 +1,86 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #444444;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+}
+
+.Pfp{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #ff6600;
+    margin: 20px auto;
+    background-color: #fff;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.resume1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    width: 12%;
+    height: 920px;
+    border: 3px solid #ff6600;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.resume2 {
+    
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    border: 3px solid #444444;
+    width: 80%;
+    
+}
+
+.header {
+    
+    padding-bottom: 20px;
+}
+
+.header h1 {
+    color: #61dafb;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    border-bottom: 2px solid #ff6600;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-item {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.geometric-design {
+    background: url('path-to-your-geometric-design-image.jpg') center/cover no-repeat;
+    height: 100px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
